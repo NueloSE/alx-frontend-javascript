@@ -1,11 +1,11 @@
 {
   "name": "my-project",
   "version": "1.0.0",
-  "type": "commonjs",
+  "type": "module",
   "description": "A Node.js project",
   "scripts": {
     "test": "jest",
-	"dev": "node"
+    "dev": "node"
   },
   "dependencies": {},
   "devDependencies": {
