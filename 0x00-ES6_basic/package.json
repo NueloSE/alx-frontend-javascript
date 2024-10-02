@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "A Node.js project",
+  "scripts": {
+    "test": "jest",
+	"dev": "node"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "eslint": "^7.6.0",
+    "jest": "^26.4.2"
+  }
+}
