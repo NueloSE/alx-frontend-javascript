@@ -4,9 +4,9 @@ export default function getListStudentIds(studentArray) {
   }
   const studentKeys = [];
 
-  studentArray.map(student => {
-	studentKeys.push(student.id);
-  })
+  studentArray.map((student) => {
+    studentKeys.push(student.id);
+  });
 
-  return (studentKeys);
+  return studentKeys;
 }
