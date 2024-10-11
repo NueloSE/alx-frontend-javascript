@@ -7,5 +7,6 @@ export default function cleanSet(set, startString) {
     }
   }
 
-  return result.slice(0, -1);
+  result =  result.slice(0, -1);
+  return result;
 }
